@@ -22,7 +22,6 @@ app.use("/api/products", (req, res) => {
   })
 });
 
-app.use(errorHandler);
 
 const server = app.listen(port, () =>
   console.log(`Server started listening on ${port}`)
